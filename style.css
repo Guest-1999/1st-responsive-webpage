@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(41, 46, 54, 1);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-side{
+    width: 40%;
+    margin-top: 220px;
+    /* margin-left: 40px; */
+}
+
+.left-side h1{
+    color: white;
+    font-family: "Cormorant Infant", serif;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.left-side p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    margin-top: 26px;
+}
+
+.left-side button{
+    color: rgba(225, 177, 104, 1);
+    margin-top: 35px;
+    font-size: 22px;
+    padding: 20px 57px;
+    border: 1px solid rgba(225, 177, 104, 1);
+    font-family: "Josefin Sans";
+}
+.right-side{
+    width: 40%;
+}
+.shape{
+    width: 400px;
+    height: 500px;
+    border-radius: 200px 200px 0px 0px;
+    margin-top: 125px;
+    /* margin-left: 300px; */
+    background-image: url(src/inner.png);
+    background-size: cover;
+
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        width: 100%;
+        display: block;
+    }
+
+    .left-side{
+        width: 100%;
+        
+    }
+  
+    .left-side h1{
+        text-align: center;
+        color: white;
+        font-family: "Cormorant Infant", serif;
+        font-size: 60px;
+        font-weight: 400;
+    }
+
+    .left-side p{
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans";
+        margin-top: 26px;
+    }
+
+
+    .left-side button{
+        margin-left: 300px;
+        color: rgba(225, 177, 104, 1);
+        margin-top: 35px;
+        font-size: 22px;
+        padding: 20px 57px;
+        border: 1px solid rgba(225, 177, 104, 1);
+        font-family: "Josefin Sans";
+    }
+    .right-side{
+        width: 100%;
+        
+    }
+
+    .shape{
+        margin-left: 250px;
+        width: 300px;
+        height: 400px;
+        border-radius: 200px 200px 0px 0px;
+        /* margin-top: 125px; */
+        /* margin-left: 300px; */
+        background-image: url(src/inner.png);
+        background-size: cover;
+    
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .container{
+        width: 100%;
+        display: block;
+    }
+
+    .left-side{
+        width: 100%;
+        
+    }
+  
+    .left-side h1{
+        text-align: center;
+        color: white;
+        font-family: "Cormorant Infant", serif;
+        font-size: 60px;
+        font-weight: 400;
+    }
+
+    .left-side p{
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans";
+        margin-top: 26px;
+    }
+
+
+    .left-side button{
+        margin-left: 120px;
+        color: rgba(225, 177, 104, 1);
+        margin-top: 35px;
+        font-size: 22px;
+        padding: 20px 57px;
+        border: 1px solid rgba(225, 177, 104, 1);
+        font-family: "Josefin Sans";
+    }
+    .right-side{
+        width: 100%;
+        
+    }
+
+    .shape{
+        margin-left: 150px;
+        width: 200px;
+        height: 300px;
+        border-radius: 200px 200px 0px 0px;
+        /* margin-top: 125px; */
+        /* margin-left: 300px; */
+        background-image: url(src/inner.png);
+        background-size: cover;
+    
+    }
+}
